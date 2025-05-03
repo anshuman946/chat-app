@@ -1,0 +1,34 @@
+.message-container {
+    margin: 10px;
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    transition: all 0.3s ease;
+}
+
+.user-message {
+    background-color: #daf8e3;
+    align-self: flex-end;
+    border: 1px solid #b0eacb;
+    text-align: right;
+}
+
+.system-message {
+    background-color: #ffd5d5;
+    color: #a30000;
+    font-style: italic;
+    text-align: center;
+    align-self: center;
+    max-width: 90%;
+}
+
+.message-sender {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 0.85em;
+}
+
+.message-body {
+    font-size: 1em;
+}
